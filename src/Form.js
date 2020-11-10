@@ -34,6 +34,7 @@ const Form = () => {
 				/>
 			</form>
 			{/* {search && search} */}
+			{name} - {age}
 		</div>
 	);
 };
