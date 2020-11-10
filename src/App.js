@@ -10,7 +10,7 @@ function App() {
 				<li key={li.name}>{li.name}</li>
 			))}
 			{list.item.map(li => (
-				<List key={li.name} li={li.name} />
+				<List key={li.name} li={li} />
 			))}
 			<Form />
 		</div>
