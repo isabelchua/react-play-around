@@ -6,7 +6,7 @@ function App() {
 	return (
 		<div className="App">
 			{list.item.map(li => (
-				<li>{li.name}</li>
+				<li key={li.name}>{li.name}</li>
 			))}
 			<Form />
 		</div>
