@@ -44,7 +44,7 @@ const Form = () => {
 				/>
 			</form>
 			{/* {search && search} */}
-			{name} - {age}
+			Name: {name} - Age {age} - Gender {gender}
 		</div>
 	);
 };
